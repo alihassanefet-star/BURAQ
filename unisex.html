@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BURAQ — Unisex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/buraq.css">
+  <script>
+    try {
+      const savedTheme = localStorage.getItem("buraq-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      }
+    } catch {}
+  </script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html#home">
+        <span class="logo-slot">
+          <img src="photos/logo.jpeg" alt="">
+        </span>
+        <span class="brand-mark">BURAQ</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#contact">Contact Me</a>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false">
+              <i class="fa-solid fa-sun theme-icon" aria-hidden="true"></i>
+              <span data-theme-label>Light mode</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <p class="eyebrow">BURAQ</p>
+      <h1 class="mb-3">Unisex</h1>
+      <div class="slot-line mb-4" aria-label="Intro slot"></div>
+      <a class="btn btn-gold" href="index.html#home">Back to Home</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-4">
+          <article class="product-card">
+            <div class="photo-slot square">
+              <img src="photos/unisex-1.jpg" alt="">
+            </div>
+            <div class="p-3">
+              <div class="name-slot mb-3" aria-label="Product name slot"></div>
+              <div class="desc-slot" aria-label="Product description slot"><button class="btn btn-gold buy-button" type="button">Buy</button></div>
+            </div>
+          </article>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <article class="product-card">
+            <div class="photo-slot square">
+              <img src="photos/unisex-2.jpg" alt="">
+            </div>
+            <div class="p-3">
+              <div class="name-slot mb-3" aria-label="Product name slot"></div>
+              <div class="desc-slot" aria-label="Product description slot"><button class="btn btn-gold buy-button" type="button">Buy</button></div>
+            </div>
+          </article>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <article class="product-card">
+            <div class="photo-slot square">
+              <img src="photos/unisex-3.jpg" alt="">
+            </div>
+            <div class="p-3">
+              <div class="name-slot mb-3" aria-label="Product name slot"></div>
+              <div class="desc-slot" aria-label="Product description slot"><button class="btn btn-gold buy-button" type="button">Buy</button></div>
+            </div>
+          </article>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <article class="product-card">
+            <div class="photo-slot square">
+              <img src="photos/unisex-4.jpg" alt="">
+            </div>
+            <div class="p-3">
+              <div class="name-slot mb-3" aria-label="Product name slot"></div>
+              <div class="desc-slot" aria-label="Product description slot"><button class="btn btn-gold buy-button" type="button">Buy</button></div>
+            </div>
+          </article>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <article class="product-card">
+            <div class="photo-slot square">
+              <img src="photos/unisex-5.jpg" alt="">
+            </div>
+            <div class="p-3">
+              <div class="name-slot mb-3" aria-label="Product name slot"></div>
+              <div class="desc-slot" aria-label="Product description slot"><button class="btn btn-gold buy-button" type="button">Buy</button></div>
+            </div>
+          </article>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <article class="product-card">
+            <div class="photo-slot square">
+              <img src="photos/unisex-6.jpg" alt="">
+            </div>
+            <div class="p-3">
+              <div class="name-slot mb-3" aria-label="Product name slot"></div>
+              <div class="desc-slot" aria-label="Product description slot"><button class="btn btn-gold buy-button" type="button">Buy</button></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap gap-3">
+      <span>BURAQ</span>
+      <nav class="footer-socials d-flex align-items-center gap-3" aria-label="BURAQ social media">
+        <a href="https://www.instagram.com/alburaq.egy" target="_blank" rel="noopener noreferrer" aria-label="BURAQ on Instagram">
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61576727102990" target="_blank" rel="noopener noreferrer" aria-label="BURAQ on Facebook">
+          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.tiktok.com/@alburaq.egy" target="_blank" rel="noopener noreferrer" aria-label="BURAQ on TikTok">
+          <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+        </a>
+      </nav>
+      <span>&copy; 2026</span>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/201003812968" target="_blank" rel="noopener noreferrer" aria-label="Chat with BURAQ on WhatsApp" title="Chat with us on WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/buraq.js"></script>
+</body>
+</html>
